@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>ARRAY METHODS</h1>
+
+        <button onclick="length()" >Available Car</button>
+        <button onclick="string()" >Car Brands</button>
+        <button onclick="pop()" >Remove Car</button>
+
+        <p id="result"></p>
+    </div>
+   
+
+    <script>
+        var car = ['Nissan', 'Toyota', 'Honda', 'Ford', 'Subaru'];
+        
+        function length() {
+            document.getElementById("result").innerHTML = "Car Numbers:" + "<br>"+ car.length;
+        }
+
+        function string() {
+            document.getElementById("result").innerHTML = "Car List:" + "<br>" + car.toString();
+        }
+
+        function pop() {
+            let popp = car.pop();
+            document.getElementById("result").innerHTML = "Removed Car: " + popp + "<br> New Car List: " + car.toString();
+        }
+    </script>
+</body>
+</html>

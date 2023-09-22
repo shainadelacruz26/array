@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    background: linear-gradient(95.2deg, rgb(173, 252, 234) 26.8%, rgb(192, 229, 246) 64%);
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10%;
+}
+
+button {
+    width: 30%;
+    padding: 15px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    background: radial-gradient(919px at 1.7% 6.1%, rgb(41, 58, 76) 0%, rgb(40, 171, 226) 100.2%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+p {
+    text-align: center;
+}
